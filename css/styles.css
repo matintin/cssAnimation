@@ -59,3 +59,32 @@ header{
 
 }
 
+#noty,#noty1 {
+	position: fixed;
+	left:5%;
+	width: 90%;
+	transition:all ease 1s;
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+}
+#noty {
+	top:100px;
+}
+#noty.fadeIn {
+	background-color: rgba(255,0,0,.5);
+}
+#noty1 {
+	top:200px;
+	background-color: rgba(0,255,0,.5);
+	transform:translate(120%,0);
+}
+#noty1.moveIn {
+	transform:translate(0,0);
+}
+
+
+
+
+
+
