@@ -92,24 +92,22 @@ header{
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
-	
-}
-#keyframes p {
-	-webkit-animation:key 3s 1;
+	animation:key 3s 1;
 }
 
-@-webkit-keyframes key {
-	0% -webkit-transform:translate{left:0px; }
-	10% -webkit-transform:translate{left:10px; }
-	20% -webkit-transform:translate{left:-10px; }
-	30% -webkit-transform:translate{left:10px; }
-	40% -webkit-transform:translate{left:-10px; }
-	50% -webkit-transform:translate{left:10px; }
-	60% -webkit-transform:translate{left:-10px; }
-	70% -webkit-transform:translate{left:10px; }
-	80% -webkit-transform:translate{left:-10px; }
-	90% -webkit-transform:translate{left:10px; }
-	100% -webkit-transform:translate{left:0px }
+
+@keyframes key {
+	0% transform:translate{left:0px; }
+	10% transform:translate{left:10px; }
+	20% transform:translate{left:-10px; }
+	30% transform:translate{left:10px; }
+	40% transform:translate{left:-10px; }
+	50% transform:translate{left:10px; }
+	60% transform:translate{left:-10px; }
+	70% transform:translate{left:10px; }
+	80% transform:translate{left:-10px; }
+	90% transform:translate{left:10px; }
+	100% transform:translate{left:0px; }
 }
 
 
