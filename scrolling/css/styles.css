@@ -1,0 +1,32 @@
+section {
+	min-height: 100vh;
+	padding-top: 5em;
+	/*border: 1px red solid;*/
+}
+section h1 {
+	margin: 0 2em;
+	color: #fff;
+}
+section h1.hide {
+	
+	visibility: hidden;
+}
+section:nth-child(1) {
+	
+	background-color:  rgba(0,255,0,.2);
+}
+section:nth-child(2) {
+	background-color:  rgba(255,255,0,.2);
+	background-image: url(../img/b1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+section:nth-child(3) {
+	background-color:  rgba(255,0,0,.2);
+}
+section:nth-child(4) {
+	background-color:  rgba(0,0,255,.2);
+}
+section:nth-child(5) {
+	background-color:  rgba(0,255,255,.2);
+}
